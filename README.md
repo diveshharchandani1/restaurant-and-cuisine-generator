@@ -48,15 +48,10 @@ View results in the formatted output section
 🧠 Project Structure
 
 .
-
 └── main.py                 # Streamlit UI implementation
-
 └── langchain_helper.py     # LangChain model and chain configurations
-
 └── test.ipynb              # Jupyter Notebook for initial testing
-
 └── requirements.txt        # Dependency list
-
 └── README.md               # This documentation
 
 
