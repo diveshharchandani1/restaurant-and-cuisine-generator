@@ -49,13 +49,13 @@ View results in the formatted output section
 
 .
 
-├── main.py                 # Streamlit UI implementation
+└── main.py                 # Streamlit UI implementation
 
-├── langchain_helper.py     # LangChain model and chain configurations
+└── langchain_helper.py     # LangChain model and chain configurations
 
-├── test.ipynb              # Jupyter Notebook for initial testing
+└── test.ipynb              # Jupyter Notebook for initial testing
 
-├── requirements.txt        # Dependency list
+└── requirements.txt        # Dependency list
 
 └── README.md               # This documentation
 
@@ -86,13 +86,10 @@ Chains are connected using SequentialChain for maintained context.
 
 📦 Dependencies
 
-streamlit>=1.31
-
-langchain>=0.1.0
-
-ollama>=0.1.0
-
-ipython (for testing)
+- streamlit>=1.31
+- langchain>=0.1.0
+- ollama>=0.1.0
+- ipython (for testing)
 
 
 🙏 Acknowledgements
