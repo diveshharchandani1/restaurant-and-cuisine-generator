@@ -46,20 +46,26 @@ View results in the formatted output section
 
 
 🧠 Project Structure
+
 .
+
 ├── main.py                 # Streamlit UI implementation
+
 ├── langchain_helper.py     # LangChain model and chain configurations
+
 ├── test.ipynb              # Jupyter Notebook for initial testing
+
 ├── requirements.txt        # Dependency list
+
 └── README.md               # This documentation
 
 
-🔧 Technical Stack
 
-Language Model: Llama3-2B via Ollama
-Framework: LangChain (LLMChain, SequentialChain)
-UI: Streamlit
-Language: Python 3.8+
+🔧 Technical Stack
+- Language Model: Llama3-2B via Ollama
+- Framework: LangChain (LLMChain, SequentialChain)
+- UI: Streamlit
+- Language: Python 3.8+
 
 
 🤖 Implementation Details
@@ -67,12 +73,13 @@ Language: Python 3.8+
 The system uses two sequential LLMChains:
 
 1. Name Generation Chain:
--Takes cuisine as input
--Generates restaurant name
+- Takes cuisine as input
+- Generates restaurant name
+
 
 2. Menu Generation Chain:
--Uses cuisine and generated name as input
--Creates 5-8 relevant menu items
+- Uses cuisine and generated name as input
+- Creates 5-8 relevant menu items
 
 Chains are connected using SequentialChain for maintained context.
 
@@ -80,14 +87,17 @@ Chains are connected using SequentialChain for maintained context.
 📦 Dependencies
 
 streamlit>=1.31
+
 langchain>=0.1.0
+
 ollama>=0.1.0
+
 ipython (for testing)
 
 
 🙏 Acknowledgements
 
--Ollama team for model serving
--LangChain for LLM orchestration
--Streamlit for UI components
--Meta for Llama3 model
+-  Ollama team for model serving
+- LangChain for LLM orchestration
+- Streamlit for UI components
+- Meta for Llama3 model
