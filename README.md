@@ -1,4 +1,4 @@
-# � Restaurant Generator AI 🥘
+# Restaurant Generator AI 🥘
 
 [![Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://your-app-url.streamlit.app/)
 ![LangChain](https://img.shields.io/badge/LangChain-13.0%2B-blue)
@@ -94,3 +94,4 @@ Chains are connected using SequentialChain for maintained context.
 - LangChain for LLM orchestration
 - Streamlit for UI components
 - Meta for Llama3 model
+
