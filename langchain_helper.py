@@ -2,7 +2,7 @@ from langchain_community.llms import Ollama
 from langchain.prompts import PromptTemplate
 from langchain.chains import LLMChain, SequentialChain
 
-llm = Ollama(model="llama3.2:3b", temperature=0.1)  
+llm = Ollama(model="llama3.2:3b", temperature=0.7)  
 
 def generate_restaurant_name_and_items(cuisine):  
     # Chain 1: Restaurant Name
@@ -15,7 +15,7 @@ def generate_restaurant_name_and_items(cuisine):
     # Chain 2: Menu Items
     prompt_template_menu_items = PromptTemplate(
         input_variables=['restaurant_name'],
-        template="Suggest menu items for {restaurant_name}. Return as comma-separated list. do not give me Here are some menu item suggestions for text just the items"
+        template="Suggest menu items for {restaurant_name}. Return as comma-separated list. Give me the menu items directly no need to give me any exllanation before that"
     )
     food_items_chain = LLMChain(llm=llm, prompt=prompt_template_menu_items, output_key="menu_items")
 
