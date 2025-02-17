@@ -4,7 +4,7 @@
 ![LangChain](https://img.shields.io/badge/LangChain-13.0%2B-blue)
 ![Ollama](https://img.shields.io/badge/Ollama-0.1%2B-orange)
 
-An AI-powered restaurant name and menu generator that creates culinary concepts based on selected cuisines, powered by Llama3-2B LLM through LangChain.
+An AI-powered restaurant name and menu generator that creates culinary concepts based on selected cuisines, powered by Llama3.2-2B LLM through LangChain.
 
 ## ✨ Features
 - **Cuisine Selection**: Choose from various international cuisines via dropdown
@@ -19,7 +19,7 @@ An AI-powered restaurant name and menu generator that creates culinary concepts 
 ### Prerequisites
 - Python 3.8+
 - [Ollama](https://ollama.ai/) installed locally
-- Llama3-2B model installed (run `ollama pull llama3:2b`)
+- Llama3.2-2B model installed (run `ollama pull llama3.2:2b`)
 
 ### Installation
 1. Clone the repository:
@@ -58,7 +58,7 @@ View results in the formatted output section
 
 
 🔧 Technical Stack
-- Language Model: Llama3-2B via Ollama
+- Language Model: Llama3.2-2B via Ollama
 - Framework: LangChain (LLMChain, SequentialChain)
 - UI: Streamlit
 - Language: Python 3.8+
@@ -93,5 +93,5 @@ Chains are connected using SequentialChain for maintained context.
 -  Ollama team for model serving
 - LangChain for LLM orchestration
 - Streamlit for UI components
-- Meta for Llama3 model
+- Meta for Llama3.2 model
 
