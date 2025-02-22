@@ -88,7 +88,12 @@ Chains are connected using SequentialChain for maintained context.
 - ipython (for testing)
 
 📸 Screenshots
+
 ![Alt text](./images/Screenshot1.png?raw=true "")
+
+![Alt text](./images/Screenshot2.png?raw=true "")
+
+![Alt text](./images/Screenshot3.png?raw=true "")
 
 
 🙏 Acknowledgements
