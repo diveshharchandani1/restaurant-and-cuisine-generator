@@ -87,6 +87,9 @@ Chains are connected using SequentialChain for maintained context.
 - ollama>=0.1.0
 - ipython (for testing)
 
+📸 Screenshots
+![Alt text](./images/Screenshot1.png?raw=true "")
+
 
 🙏 Acknowledgements
 
@@ -94,4 +97,5 @@ Chains are connected using SequentialChain for maintained context.
 - LangChain for LLM orchestration
 - Streamlit for UI components
 - Meta for Llama3.2 model
+
 
